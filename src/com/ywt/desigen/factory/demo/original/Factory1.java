@@ -1,7 +1,7 @@
 package com.ywt.desigen.factory.demo.original;
 import com.ywt.desigen.factory.demo.Fruit;
-import com.ywt.desigen.factory.pojo.Apple;
-import com.ywt.desigen.factory.pojo.Orange;
+import com.ywt.desigen.factory.demo.pojo.Apple;
+import com.ywt.desigen.factory.demo.pojo.Orange;
 
 /**
  * @Auther:yuanwt

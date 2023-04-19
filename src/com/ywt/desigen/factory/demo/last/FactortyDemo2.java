@@ -11,10 +11,10 @@ import com.ywt.desigen.factory.demo.Fruit;
  */
 public class FactortyDemo2 {
     public static void main(String[] args) {
-        Fruit f1 = new Factory2().getInstance("com.msb.factory.pojo.Apple");
-        Fruit f2 = new Factory2().getInstance("com.msb.factory.pojo.Orange");
+        Fruit f1 = new Factory2().getInstance("com.ywt.desigen.factory.demo.pojo.Apple");
+        Fruit f2 = new Factory2().getInstance("com.ywt.desigen.factory.demo.pojo.Orange");
         //增加新的类不用改变原工厂代码
-        Fruit f3 = new Factory2().getInstance("com.msb.factory.pojo.Banana");
+        Fruit f3 = new Factory2().getInstance("com.ywt.desigen.factory.demo.pojo.Banana");
 
         f1.eat();
         f2.eat();

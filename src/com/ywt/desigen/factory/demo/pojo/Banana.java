@@ -1,4 +1,4 @@
-package com.ywt.desigen.factory.pojo;
+package com.ywt.desigen.factory.demo.pojo;
 
 
 import com.ywt.desigen.factory.demo.Fruit;
