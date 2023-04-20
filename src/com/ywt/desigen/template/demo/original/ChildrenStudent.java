@@ -9,11 +9,20 @@ import com.ywt.desigen.template.demo.last.Student;
  * @Version: 1.0
  */
 public class ChildrenStudent {
-   private static  String name;
-    public static void main(String[] args) {
+    private String name;
+
+    public void write() {
         System.out.println("我是标题");
         System.out.println("我是开头");
-        System.out.println("我是小学生"+name+"正文");
+        System.out.println("我是小学生" + name + "正文");
         System.out.println("我是结尾");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

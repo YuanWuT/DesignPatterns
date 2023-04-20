@@ -7,9 +7,8 @@ package com.ywt.desigen.template.demo.last;
  * @Version: 1.0
  */
 public class MiddleStusent  extends Student {
-
     @Override
-    public void write(String name) {
-        System.out.println("我是中学生"+name+"正文");
+    public String writeMain(String name) {
+        return name+"作文正文--我是小学生 王者贼厉害";
     }
 }

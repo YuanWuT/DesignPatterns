@@ -9,7 +9,7 @@ package com.ywt.desigen.template.demo.last;
 public class ChildrenStudent extends Student {
 
     @Override
-    public void write(String name) {
-        System.out.println("我是小学生"+name+"正文");
+    public String writeMain(String name) {
+        return name+"作文正文--我是中学生 睡觉贼厉害";
     }
 }

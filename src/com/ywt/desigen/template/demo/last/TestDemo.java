@@ -9,8 +9,11 @@ package com.ywt.desigen.template.demo.last;
 public class TestDemo {
     public static void main(String[] args) {
         Student s1 = new ChildrenStudent();
-        s1.commonWrite("三年级李小三");
+        s1.setName("三年级李小三");
+        s1.write();
+        System.out.println("--------------");
         Student s2 = new MiddleStusent();
-        s2.commonWrite("高二年级高二二");
+        s2.setName("高二年级高二二");
+        s2.write();
     }
 }

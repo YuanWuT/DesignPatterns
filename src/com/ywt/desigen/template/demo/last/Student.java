@@ -12,15 +12,15 @@ public abstract  class Student {
     /**
      *  作文标题、开头、结尾一致，只有正文需要自己写（即代码多处需要，只有部分不一样）
      */
-    public void commonWrite(String name){
+    public void write(){
         System.out.println("我是标题");
         System.out.println("我是开头");
-        write(name);
+        System.out.println(writeMain(name));
         System.out.println("我是结尾");
     }
 
     //抽象方法写正文
-    public abstract void write( String name);
+    public abstract String writeMain( String name);
 
     public String getName() {
         return name;
